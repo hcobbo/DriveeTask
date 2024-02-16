@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\Programming\\C#\\DriveeTask\\DriveeTask.csproj": {}
+    "F:\\Programming\\C#\\DriveeTask\\DriveeTask.csproj": {}
   },
   "projects": {
-    "f:\\Programming\\C#\\DriveeTask\\DriveeTask.csproj": {
+    "F:\\Programming\\C#\\DriveeTask\\DriveeTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\Programming\\C#\\DriveeTask\\DriveeTask.csproj",
+        "projectUniqueName": "F:\\Programming\\C#\\DriveeTask\\DriveeTask.csproj",
         "projectName": "DriveeTask",
-        "projectPath": "f:\\Programming\\C#\\DriveeTask\\DriveeTask.csproj",
+        "projectPath": "F:\\Programming\\C#\\DriveeTask\\DriveeTask.csproj",
         "packagesPath": "C:\\Users\\hcobb\\.nuget\\packages\\",
-        "outputPath": "f:\\Programming\\C#\\DriveeTask\\obj\\",
+        "outputPath": "F:\\Programming\\C#\\DriveeTask\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hcobb\\AppData\\Roaming\\NuGet\\NuGet.Config",
