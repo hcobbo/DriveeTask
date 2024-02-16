@@ -1,0 +1,15 @@
+f:\Programming\C#\DriveeTask\bin\Debug\net8.0\DriveeTask.exe
+f:\Programming\C#\DriveeTask\bin\Debug\net8.0\DriveeTask.deps.json
+f:\Programming\C#\DriveeTask\bin\Debug\net8.0\DriveeTask.runtimeconfig.json
+f:\Programming\C#\DriveeTask\bin\Debug\net8.0\DriveeTask.dll
+f:\Programming\C#\DriveeTask\bin\Debug\net8.0\DriveeTask.pdb
+f:\Programming\C#\DriveeTask\obj\Debug\net8.0\DriveeTask.GeneratedMSBuildEditorConfig.editorconfig
+f:\Programming\C#\DriveeTask\obj\Debug\net8.0\DriveeTask.AssemblyInfoInputs.cache
+f:\Programming\C#\DriveeTask\obj\Debug\net8.0\DriveeTask.AssemblyInfo.cs
+f:\Programming\C#\DriveeTask\obj\Debug\net8.0\DriveeTask.csproj.CoreCompileInputs.cache
+f:\Programming\C#\DriveeTask\obj\Debug\net8.0\DriveeTask.sourcelink.json
+f:\Programming\C#\DriveeTask\obj\Debug\net8.0\DriveeTask.dll
+f:\Programming\C#\DriveeTask\obj\Debug\net8.0\refint\DriveeTask.dll
+f:\Programming\C#\DriveeTask\obj\Debug\net8.0\DriveeTask.pdb
+f:\Programming\C#\DriveeTask\obj\Debug\net8.0\DriveeTask.genruntimeconfig.cache
+f:\Programming\C#\DriveeTask\obj\Debug\net8.0\ref\DriveeTask.dll
