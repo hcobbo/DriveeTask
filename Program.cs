@@ -2,17 +2,6 @@
 using System.Collections.Generic;
 using System.Drawing;
 
-
-public class CoordinateSystem
-{
-    public int Width {get;}
-    public int Height{get;}
-    public CoordinateSystem(int width, int height)
-    {
-        Width = width;
-        Height = height;
-    }
-}
 class Order
 {
         public string Name { get; set; }
@@ -88,7 +77,7 @@ class Program
                         order.PointA = pointA;
                         order.PointB = pointB;
                         order.List = i; // 
-                        order.RandomPrice = new Random().Next(100, 500); //
+                        order.RandomPrice = new Random().Next(100, 500); 
 
                         orders.Add(order);
                 }
@@ -117,25 +106,4 @@ class Program
         }
 }
 }
-//   Random random = new Random();
 
-//         Point pointA = new Point(random.Next(1, 1000), random.Next(1, 1000)); 
-//         Point pointB = new Point(random.Next(1, 1000), random.Next(1, 1000));
-//         Point courierLocation = new Point(random.Next(1, 1000), random.Next(1, 1000));
-
-
-//         Console.WriteLine($"Координаты точки А: ({pointA.X}, {pointA.Y})");
-//         Console.WriteLine($"Координаты точки Б: ({pointB.X}, {pointB.Y})");
-//         Console.WriteLine($"местоположение курьера: ({courierLocation.X}, {courierLocation.Y})");
-
-//         Random RandomNumber = new Random();
-
-//         Order obj = new Order();
-//         obj.List = 10;
-//         obj. RandomPrice = RandomNumber.Next(100,500);
-
-//         Courier courier = new Courier();
-//         courier.Distance = (int)courierLocation.DistanceTo(pointA);
-
-//         Console.WriteLine($"Цена заказа: {obj.RandomPrice}");
-//         Console.WriteLine($"Расстояние до заказа: {courier.Distance} метров"); // 
