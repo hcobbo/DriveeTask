@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DriveeTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a38c85a5f54934715aa189802b1aa74f60d38f27")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93945c1cc8becfd3a685896244f84215aa90c8bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("DriveeTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DriveeTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
