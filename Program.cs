@@ -4,6 +4,12 @@ using System.Drawing;
 
 class Program
 {
+    const int MinRandomDistance = 300;
+    const int MaxRandomDistance = 3000;
+    const int MinRandomCoordinate = 1;
+    const int MaxRandomCoordinate = 1000;
+    const int MaxRandomPrice = 1000;
+    const int MinRandomPrice = 100;
     static void Main(string[] args)
     {
         List<Courier> couriers = GenerateCouriers(10); 
@@ -42,7 +48,7 @@ class Program
         for (int i = 0; i < countCouriers; i++)
         {
             Courier courier = new Courier($"Courier{i + 1}");
-            courier.Distance = new Random().Next(0, 3000);
+            courier.Distance = new Random().Next(MinRandomDistance, MaxRandomDistance);
             couriers.Add(courier);
         }
         return couriers;
@@ -53,14 +59,15 @@ class Program
         List<Order> orders = new List<Order>();
         for (int i = 0; i < countOrders; i++)
         {
-            Point pointA = new Point(new Random().Next(1, 1000), new Random().Next(1, 1000));
-            Point pointB = new Point(new Random().Next(1, 1000), new Random().Next(1, 1000));
+            Point pointA = new Point(new Random().Next(MinRandomCoordinate, MaxRandomCoordinate), new Random().Next(MinRandomCoordinate, MaxRandomCoordinate));
+            Point pointB = new Point(new Random().Next(MinRandomCoordinate, MaxRandomCoordinate), new Random().Next(MinRandomCoordinate, MaxRandomCoordinate));
 
             Order order = new Order($"Order{i +1}");
             order.PointA = pointA;
             order.PointB = pointB;
             order.List = i; // 
-            order.RandomPrice = new Random().Next(100, 500); //здесь генерация случайной цены не привязанной к расстоянию и тд
+            order.RandomPrice = new Random().Next(MinRandomPrice, MaxRandomPrice);  
+
 
             orders.Add(order);
         }
