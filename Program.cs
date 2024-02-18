@@ -59,16 +59,9 @@ class Program
         List<Order> orders = new List<Order>();
         for (int i = 0; i < countOrders; i++)
         {
-            Point pointA = new Point(new Random().Next(MinRandomCoordinate, MaxRandomCoordinate), new Random().Next(MinRandomCoordinate, MaxRandomCoordinate));
-            Point pointB = new Point(new Random().Next(MinRandomCoordinate, MaxRandomCoordinate), new Random().Next(MinRandomCoordinate, MaxRandomCoordinate));
-
-            Order order = new Order($"Order{i +1}");
-            order.PointA = pointA;
-            order.PointB = pointB;
-            order.List = i; // 
+            Order order = new Order($"Order{i + 1}");
+            order.List = i; 
             order.RandomPrice = new Random().Next(MinRandomPrice, MaxRandomPrice);  
-
-
             orders.Add(order);
         }
         return orders;

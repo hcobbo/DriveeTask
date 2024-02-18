@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DriveeTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3235fd401b58a19894e55719fd9b97f975447ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00cc08706b8f8692cb963b95db35c38ceb846108")]
 [assembly: System.Reflection.AssemblyProductAttribute("DriveeTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DriveeTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
